@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h4 {
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+.reg{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex; /* Utilizamos flexbox para colocar los botones en la misma línea */
+    justify-content: space-evenly; /* Espaciado uniforme entre los botones */
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005675;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
